@@ -15,3 +15,23 @@
     一个网络扫描器
     一个分布式的网络扫描器
     一个分布式的异步网络扫描器
+
+### 流程图
+```flow
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
+
+时序图:
+
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
